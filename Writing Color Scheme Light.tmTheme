@@ -23,11 +23,11 @@
 			<dict>
 				<!-- # Main -->
 				<key>foreground</key>
-				<string>#181819</string>
+				<string>#697B82</string>
 				<key>background</key>
-				<string>#F7F7F7</string>
+				<string>#FCF6E5</string>
 				<key>caret</key>
-				<string>#16BDEC</string>
+				<string>#000000</string>
 				<key>lineHighlight</key>
 				<string>#00000008</string> 
 
@@ -118,7 +118,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#998f2f</string>
+				<string>#BF5930</string>
 			</dict>
 		</dict>
 
@@ -142,7 +142,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#679c00</string>
+				<string>#6A7B82</string>
 			</dict>
 		</dict>
 
@@ -154,7 +154,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f9005a</string>
+				<string>#448ACC</string>
 			</dict>
 		</dict>
 
@@ -191,10 +191,8 @@
 			<string>markup.bold</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#6A7B82</string>
 			</dict>
 		</dict>
 
@@ -222,10 +220,8 @@
 			<string>meta.environment.math.inline</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#ef6a72</string>
+				<string>#BF5930</string>
 			</dict>
 		</dict>
 
@@ -239,7 +235,7 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#ef6a72</string>
+				<string>#BF5930</string>
 			</dict>
 		</dict>
 
@@ -247,11 +243,23 @@
 			<key>name</key>
 			<string>Latex: maths color</string>
 			<key>scope</key>
-			<string>keyword.other.greek, keyword.operator.math.tex, variable.other.math.tex, support.function.math.tex, constant.character.escape, constant.character.parenthesis.tex, support.function.text.latex</string>
+			<string>keyword.operator.math.tex, variable.other.math.tex,  constant.character.escape, constant.character.parenthesis.tex, support.function.text.latex</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ef6a72</string>
+				<string>#BF5930</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Latex: maths color</string>
+			<key>scope</key>
+			<string>keyword.other.greek,support.function.math.tex</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#448ACC</string>
 			</dict>
 		</dict>
 
@@ -263,7 +271,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a3a3a3</string>
+				<string>#448ACC</string>
 			</dict>
 		</dict>
 
@@ -275,7 +283,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9db269</string>
+				<string>#6A7B82</string>
 			</dict>
 		</dict>
 
@@ -291,17 +299,7 @@
 			</dict>
 		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>Latex: Sections</string>
-			<key>scope</key>
-			<string>meta.section.latex, support.function.section.latex, entity.name.section.latex</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
+		
 
 		<dict>
 			<key>name</key>
@@ -311,7 +309,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bc93bc</string>
+				<string>#6A7B82</string>
 			</dict>
 		</dict>
 
@@ -484,7 +482,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#684d99</string>
+				<string>#BF5930</string>
 			</dict>
 		</dict>
 
@@ -514,10 +512,8 @@
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
-				<string>#0089b3</string>
+				<string>#498DCD</string>
 			</dict>
 		</dict>
 
@@ -572,10 +568,8 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
-				<string>#cf7000</string>
+				<string>#6A7B82</string>
 			</dict>
 		</dict>
 		<dict>
@@ -614,7 +608,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#0089b3</string>
+				<string>#498DCD</string>
 			</dict>
 		</dict>
 		<dict>
